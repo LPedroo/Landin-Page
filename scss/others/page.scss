@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../../imagens/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #ffffff;
+}
+
+.container1 {
+  background-color: $background-color;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.topLogo {
+  width: 100%;
+  max-width: 200px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.btnSend {
+  color: $button-color;
+  border: 1px solid $button-color;
+
+  &:hover {
+    background-color: $button-color;
+    color: #ffffff;
+  }
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+}
+
+@media (max-width: 576px) {
+  .container1 {
+    width: 100%;
+  }
+}
+
+/* Regras para dispositivos com largura igual ou maior que 576px */
+@media (min-width: 576px) {
+  .container1 {
+    max-width: 540px;
+  }
+}
+
+/* Regras para dispositivos com largura igual ou maior que 768px */
+@media (min-width: 768px) {
+  .container1 {
+    max-width: 720px;
+  }
+}
+
+/* Regras para dispositivos com largura igual ou maior que 992px */
+@media (min-width: 992px) {
+  .container1 {
+    max-width: 960px;
+  }
+}
+
+/* Regras para dispositivos com largura igual ou maior que 1200px */
+@media (min-width: 1200px) {
+  .container1 {
+    max-width: 1140px;
+  }
+}
